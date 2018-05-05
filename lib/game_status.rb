@@ -50,6 +50,8 @@ end
 
 def winner?(board)
   if won?(board)
+    if won?(board).sum("X")>won?(board).sum("O")
+      return "X"
 end 
   
 
