@@ -16,6 +16,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each{|combo| 
-    index_1 = combo[]
+    index_0 = combo[0]
   } 
 end 
