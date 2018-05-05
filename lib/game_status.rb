@@ -21,6 +21,11 @@ def won?(board)
     index_1 = combo[1]
     index_2 = combo[2]
     
-    
+    first_position = board[index_0]
+    second_position= board[index_1]
+    third_position=board[index_2]
+
+    if first_position=="X"&& second_position=="X"&&third_position=="X"
+        return 
   } 
 end 
