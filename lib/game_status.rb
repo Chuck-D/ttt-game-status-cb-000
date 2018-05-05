@@ -48,7 +48,7 @@ def over?(board)
   won?(board) || full?(board) || draw?(board)
 end
 
-def winner?(board)
+def winner(board)
   if won?(board)
     if won?(board).sum("X")>won?(board).sum("O")
       return "X"
