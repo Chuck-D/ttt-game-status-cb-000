@@ -36,7 +36,8 @@ def won?(board)
 end 
 
 def full?(board)
-  board.all?{|index|/ " "|| nil/}
+  board.each{|index|
+    if index==" "|| inxex == nil return false}
   
 end
   
