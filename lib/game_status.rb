@@ -50,7 +50,7 @@ end
 
 def winner(board)
   if won?(board)
-   # winning_letter=[]
+   
     won?(board).each do |index|
       winning_letter = board[index]
       return winning_letter
