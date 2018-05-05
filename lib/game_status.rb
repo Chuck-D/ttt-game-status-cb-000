@@ -27,6 +27,9 @@ def won?(board)
 
     if first_position=="X"&& second_position=="X"&&third_position=="X"
         return winning_combo
-    elsif 
+    elsif first_position=="O"&& second_position=="O"&&third_position=="O"
+        return winning_combo
+      end
+      
   } 
 end 
