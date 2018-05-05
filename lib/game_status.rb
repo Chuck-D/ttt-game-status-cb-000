@@ -30,6 +30,6 @@ def won?(board)
     elsif first_position=="O"&& second_position=="O"&&third_position=="O"
         return winning_combo
       end
-      
-  } 
+      }
+      return false
 end 
