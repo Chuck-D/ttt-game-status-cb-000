@@ -51,8 +51,9 @@ end
 def winner(board)
   if won?(board)
     won?(board).each do |index|
+      winning_letter = index
+      return winning_letter
     
-      return 
     end
   end
 end 
