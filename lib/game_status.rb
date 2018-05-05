@@ -50,6 +50,7 @@ end
 
 def winner(board)
   if won?(board)
+    winning_letter=WIN_COMBINATIONS
     
       return 
     end
