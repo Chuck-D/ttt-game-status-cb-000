@@ -50,7 +50,7 @@ end
 
 def winner(board)
   if won?(board)
-    won?(board)
+    won?(board).each do |index|
     
       return 
     end
