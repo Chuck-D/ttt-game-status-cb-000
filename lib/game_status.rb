@@ -35,11 +35,9 @@ def won?(board)
       return false
 end 
 
-#def full?(board)
-#  board.each{|index|
-  #   board[index]==" "|| board[index] == nil 
-      }
-  #  end
+def full?(board)
+  position_taken?.all?
+    end
   
 
   
