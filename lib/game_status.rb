@@ -37,7 +37,7 @@ end
 
 def full?(board)
   board.each{|index|
-    if board[index]==" "|| board[index] == nil 
+     board[index]==" "|| board[index] == nil 
       }
     end
   
