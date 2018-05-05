@@ -15,17 +15,18 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.each{|combo| 
+  WIN_COMBINATIONS.each{|winning_combo| 
     
-    index_0 = combo[0]
-    index_1 = combo[1]
-    index_2 = combo[2]
+    index_0 = winning_combo[0]
+    index_1 = winning_combo[1]
+    index_2 = winning_combo[2]
     
     first_position = board[index_0]
     second_position= board[index_1]
     third_position=board[index_2]
 
     if first_position=="X"&& second_position=="X"&&third_position=="X"
-        return 
+        return winning_combo
+    elsif
   } 
 end 
